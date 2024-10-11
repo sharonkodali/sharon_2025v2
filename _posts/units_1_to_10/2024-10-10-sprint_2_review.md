@@ -9,11 +9,12 @@ courses: {'csa': {'week': 7}}
 type: ccc
 permalink: /sprint2review
 ---
+
 <style>
   body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ff9999, #ffcc99, #ffff99, #ccff99, #99ffcc, #99ccff, #9999ff); /* Pastel rainbow background */
-    color: #333333; /* Dark text for contrast */
+    background: linear-gradient(135deg, #ff9999, #ffcc99, #ffff99, #ccff99, #99ffcc, #99ccff, #9999ff);
+    color: #333333;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -26,152 +27,244 @@ permalink: /sprint2review
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
   h1 {
-    font-size: 28px; /* Smaller font size */
+    font-size: 28px;
     margin-bottom: 40px;
-    color: #663399; /* Darker color for the title */
+    color: #663399;
+    text-align: center;
   }
 
   .box {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.9); /* White background for boxes */
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 20px;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
+    cursor: pointer;
+    text-align: center;
   }
 
   .box:hover {
-    transform: scale(1.05); /* Grow effect on hover */
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(102, 51, 153, 0.8);
   }
 
-  .star {
-    width: 100%;
-    height: 100%;
+  .summary, .memory {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.204 1.185-5.93 5.755 1.398 8.202L12 18.897l-7.34 3.866 1.398-8.202-5.93-5.755 8.204-1.185z" fill="rgba(255, 215, 0, 0.7)"/></svg>'); /* Star SVG */
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    pointer-events: none; /* Ignore mouse events */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
   }
 
-  .box:hover .star {
-    opacity: 1; /* Show star on hover */
+  .box:hover .summary, .box:hover .memory {
+    display: block;
+  }
+
+  .content {
+    font-size: 14px;
+    margin: 0;
   }
 
   ul {
-    text-align: left;
-    padding-left: 20px;
-    font-size: 14px; /* Smaller font size for list items */
-    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  .summary-section, .memory-section {
+    margin-top: 10px;
   }
 </style>
 
 <div class="container">
   <h1>Programming Topics</h1>
 
-  <a href="https://beijanm.github.io/beijan25/2024/10/09/review_ticket.html" class="main-link">Go to My Blog Post</a>
-
-  <div class="box">
-    Unit 2
-    <div class="star"></div>
-    <ul>
-      <li>Objects represent real-world entities in programming.</li>
-      <li>Methods define object behavior.</li>
-      <li>Encapsulation hides data within objects.</li>
-      <li>Constructors initialize new object instances.</li>
-      <li>Accessors and mutators (getters/setters) manage object data.</li>
-    </ul>
+  <!-- Unit 1 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 1 - Primitive Types
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>Basic types of data directly stored in memory.</li>
+        <li>Examples: int, double, boolean.</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>This was the first team teach and it was instructed by Mr. Mortenson, this provided us with a gneral overview of how the team teaches should be structured</li>
+        <li>This topic was a fundamental of Java that was important throughout the rest of the teaches</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="box">
-    Unit 3
-    <div class="star"></div>
-    <ul>
-      <li>Boolean expressions evaluate to either true or false.</li>
-      <li>Logical operators include AND (&&), OR (||), and NOT (!).</li>
-      <li>Used for decision-making (if-else statements).</li>
-      <li>Relational operators compare values (==, !=, >, <, >=, <=).</li>
-      <li>Critical for loops and flow control in programs.</li>
-    </ul>
+  <!-- Unit 2 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 2 - Objects and Classes
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>Objects encapsulate data and behavior.</li>
+        <li>Classes define the structure for objects.</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>Constructors initialize objects.</li>
+        <li>Getters and setters manage object data.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="box">
-    Unit 4
-    <div class="star"></div>
-    <ul>
-      <li>Loops allow repeated execution of a block of code.</li>
-      <li>Types of loops: for, while, and do-while.</li>
-      <li>Loops can iterate over arrays or lists of items.</li>
-      <li>Break and continue can control loop execution.</li>
-      <li>Used to simplify repetitive tasks in code.</li>
-    </ul>
+  <!-- Unit 3 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 3 - Boolean Expressions
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>Boolean expressions evaluate to true or false.</li>
+        <li>Operators: AND (&&), OR (||), NOT (!).</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>Crucial for control flow using if-else statements.</li>
+        <li>Optimize decision-making in algorithms.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="box">
-    Unit 5
-    <div class="star"></div>
-    <ul>
-      <li>Classes define blueprints for objects.</li>
-      <li>Each class contains fields (attributes) and methods.</li>
-      <li>Constructors create instances of classes (objects).</li>
-      <li>Static methods/fields belong to the class, not instances.</li>
-      <li>Inheritance allows creating new classes from existing ones.</li>
-    </ul>
+  <!-- Unit 4 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 4 - Iteration
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>Loop structures like for, while, do-while.</li>
+        <li>Repetitive tasks in code execution.</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>Useful for repeating operations efficiently.</li>
+        <li>Control loop execution with break/continue.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="box">
-    Unit 6
-    <div class="star"></div>
-    <ul>
-      <li>Arrays store multiple elements of the same type.</li>
-      <li>Elements are accessed using zero-based index numbers.</li>
-      <li>Fixed size; cannot change once declared.</li>
-      <li>Useful for managing lists or collections of data.</li>
-      <li>Common operations: iteration, sorting, and searching.</li>
-    </ul>
+  <!-- Unit 5 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 5 - Writing Classes
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>Defining a class structure and behavior.</li>
+        <li>Methods and attributes for encapsulation.</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>Access modifiers: public, private.</li>
+        <li>Use methods to manipulate object data.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="box">
-    Unit 7
-    <div class="star"></div>
-    <ul>
-      <li>ArrayLists are dynamic arrays in Java.</li>
-      <li>Unlike arrays, ArrayLists can change size dynamically.</li>
-      <li>ArrayLists store objects, not primitive types.</li>
-      <li>Useful methods: add(), remove(), get(), size().</li>
-      <li>ArrayLists offer more flexibility than basic arrays.</li>
-    </ul>
+  <!-- Unit 6 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 6 - Arrays
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>Array is a collection of elements of the same type.</li>
+        <li>Indexing starts at 0.</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>Arrays are static in size.</li>
+        <li>Use loops to traverse an array.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="box">
-    Unit 8
-    <div class="star"></div>
-    <ul>
-      <li>2D arrays are arrays of arrays (matrix structure).</li>
-      <li>Rows and columns are used to access elements.</li>
-      <li>Useful for representing grids, tables, and matrices.</li>
-      <li>Common operations: iterating over rows and columns.</li>
-      <li>Indexed by two values: row index and column index.</li>
-    </ul>
+  <!-- Unit 7 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 7 - ArrayList
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>ArrayList is a dynamic array that resizes as needed.</li>
+        <li>Methods include add(), remove(), and get().</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>More flexible than arrays.</li>
+        <li>Automatically adjusts size as elements are added or removed.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="box">
-    Unit 9
-    <div class="star"></div>
-    <ul>
-      <li>Inheritance allows one class to acquire properties of another.</li>
-      <li>Promotes code reuse and reduces redundancy.</li>
-      <li>Parent (superclass) and child (subclass) relationships.</li>
-      <li>Overriding methods in subclasses to provide specific behavior.</li>
-      <li>Polymorphism allows treating objects of different classes in a uniform way.</li>
-    </ul>
+  <!-- Unit 8 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 8 - Inheritance
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>Inheritance allows classes to share attributes and methods.</li>
+        <li>Parent-child relationship between classes.</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>Use "extends" keyword to inherit from a superclass.</li>
+        <li>Override methods for specific child behavior.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Unit 9 -->
+  <div class="box" onclick="window.location.href='#'">
+    Unit 9 - Recursion
+    <div class="summary-section">
+      <h3>Summary</h3>
+      <ul>
+        <li>Recursion is a method calling itself to solve a problem.</li>
+        <li>Base case is required to end recursion.</li>
+      </ul>
+    </div>
+    <div class="memory-section">
+      <h3>Key Takeaways from Team Teach</h3>
+      <ul>
+        <li>Commonly used for divide-and-conquer algorithms.</li>
+        <li>Be cautious of infinite recursion without a base case.</li>
+      </ul>
+    </div>
   </div>
 </div>
