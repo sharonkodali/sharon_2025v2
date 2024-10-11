@@ -94,30 +94,28 @@ permalink: /sprint2review
   }
 </style>
 
-<div class="container">
-  <h1>Programming Topics</h1>
-
-  <!-- Unit 1 -->
-  <div class="box" onclick="window.location.href='#'">
-    Unit 1 - Primitive Types
-    <div class="summary-section">
-      <h3>Summary</h3>
-      <ul>
-        <li>Basic types of data directly stored in memory.</li>
-        <li>Examples: int, double, boolean.</li>
-      </ul>
-    </div>
-    <div class="memory-section">
-      <h3>Key Takeaways from Team Teach</h3>
-      <ul>
-        <li>This was the first team teach and it was instructed by Mr. Mortenson, this provided us with a gneral overview of how the team teaches should be structured</li>
-        <li>This topic was a fundamental of Java that was important throughout the rest of the teaches</li>
-      </ul>
-    </div>
+<!-- Unit 1 -->
+<div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/csa/unit1/intro'">
+  Unit 1 - Primitive Types
+  <div class="summary-section">
+    <h3>Summary</h3>
+    <ul>
+      <li>Basic types of data directly stored in memory.</li>
+      <li>Examples: int, double, boolean.</li>
+    </ul>
   </div>
+  <div class="memory-section">
+    <h3>Key Takeaways from Team Teach</h3>
+    <ul>
+      <li>Understanding memory-efficient coding.</li>
+      <li>Use boolean for true/false conditions.</li>
+    </ul>
+  </div>
+</div>
+
 
   <!-- Unit 2 -->
-  <div class="box" onclick="window.location.href='#'">
+  <div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/csa/unit2/period3/home/'">
     Unit 2 - Objects and Classes
     <div class="summary-section">
       <h3>Summary</h3>
@@ -136,7 +134,7 @@ permalink: /sprint2review
   </div>
 
   <!-- Unit 3 -->
-  <div class="box" onclick="window.location.href='#'">
+  <div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/unit3lesson'">
     Unit 3 - Boolean Expressions
     <div class="summary-section">
       <h3>Summary</h3>
@@ -155,7 +153,7 @@ permalink: /sprint2review
   </div>
 
   <!-- Unit 4 -->
-  <div class="box" onclick="window.location.href='#'">
+  <div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/csa/unit4-p1/'">
     Unit 4 - Iteration
     <div class="summary-section">
       <h3>Summary</h3>
@@ -174,7 +172,7 @@ permalink: /sprint2review
   </div>
 
   <!-- Unit 5 -->
-  <div class="box" onclick="window.location.href='#'">
+  <div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/csa/period1/unit5/intro'">
     Unit 5 - Writing Classes
     <div class="summary-section">
       <h3>Summary</h3>
@@ -193,7 +191,7 @@ permalink: /sprint2review
   </div>
 
   <!-- Unit 6 -->
-  <div class="box" onclick="window.location.href='#'">
+  <div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/csa/unit6-p1/'">
     Unit 6 - Arrays
     <div class="summary-section">
       <h3>Summary</h3>
@@ -212,7 +210,7 @@ permalink: /sprint2review
   </div>
 
   <!-- Unit 7 -->
-  <div class="box" onclick="window.location.href='#'">
+  <div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/csa/unit7-p1/unit7-1'">
     Unit 7 - ArrayList
     <div class="summary-section">
       <h3>Summary</h3>
@@ -231,7 +229,7 @@ permalink: /sprint2review
   </div>
 
   <!-- Unit 8 -->
-  <div class="box" onclick="window.location.href='#'">
+  <div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/unit8lesson'">
     Unit 8 - Inheritance
     <div class="summary-section">
       <h3>Summary</h3>
@@ -250,7 +248,7 @@ permalink: /sprint2review
   </div>
 
   <!-- Unit 9 -->
-  <div class="box" onclick="window.location.href='#'">
+  <div class="box" onclick="window.location.href='https://sharonkodali.github.io/sharon_2025v2/unit9lesson'">
     Unit 9 - Recursion
     <div class="summary-section">
       <h3>Summary</h3>
