@@ -274,5 +274,5 @@ permalink: /sprint2review
   <ul>
     <li>Specifically for me, the class started out kind of rough and we needed time to adjust into our old groups. After talking to Mr. Mortenson we relized that we might work better with new groups. Over the last two weeks I have been working on adjusting to new groups</li>
   </ul>
-  <p>Looking back, these moments highlighted the value of collaboration and persistence, and I feel more confident tackling similar challenges in the future.</p>
+  <p>Another big thing I took away is the importance of attendance and communication, my team might have been struggling before and its hard to make solid progress in class if I am not here a lot so I have been working on trying to show up more to all my classes and I think it has been helping me improve my understanding a lot</p>
 </div>
