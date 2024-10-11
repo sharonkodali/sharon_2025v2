@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Sprint 2 review 
+toc: True
+title: Sprint 2 review
+description: Team teach review 
+authors: Sharon Kodali 
+categories: ['AP CSA']
 courses: {'csa': {'week': 6}}
 type: ccc
-comments: true
-permalink: /teamteachhome
+permalink: /sprint2review
 ---
 
 <style>
