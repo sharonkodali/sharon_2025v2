@@ -222,7 +222,7 @@ permalink: /sprint2review
     <div class="memory-section">
       <h3>Key Takeaways from Team Teach</h3>
       <ul>
-        <li>More flexible than arrays.</li>
+        <li> I really liked how the popcorn hacks increased in dificulty, and the teachers were very helpful with questions</li>
         <li>Automatically adjusts size as elements are added or removed.</li>
       </ul>
     </div>
@@ -241,8 +241,8 @@ permalink: /sprint2review
     <div class="memory-section">
       <h3>Key Takeaways from Team Teach</h3>
       <ul>
-        <li>Use "extends" keyword to inherit from a superclass.</li>
-        <li>Override methods for specific child behavior.</li>
+        <li>The Collegeboard hacks were really helpful for this </li>
+        <li>This team tech was specifically challenging for me and I had  a hard tiem with the homework hacks. I worked on these hack s with my teamate so this is important for me to review</li>
       </ul>
     </div>
   </div>
