@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Team Teach Home
+title: Sprint 2 review 
 courses: {'csa': {'week': 6}}
 type: ccc
 comments: true
