@@ -266,3 +266,13 @@ permalink: /sprint2review
     </div>
   </div>
 </div>
+
+<!-- Reflection Section -->
+<div class="reflection-box">
+  <h3>Personal Reflection</h3>
+  <p>Throughout this sprint, I had the opportunity to dive deeper into each unit and apply what I learned through team teaching. Some of the key moments for me were:</p>
+  <ul>
+    <li>Specifically for me, the class started out kind of rough and we needed time to adjust into our old groups. After talking to Mr. Mortenson we relized that we might work better with new groups. Over the last two weeks I have been working on adjusting to new groups</li>
+  </ul>
+  <p>Looking back, these moments highlighted the value of collaboration and persistence, and I feel more confident tackling similar challenges in the future.</p>
+</div>
