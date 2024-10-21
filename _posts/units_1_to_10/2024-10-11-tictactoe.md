@@ -136,5 +136,8 @@ public class TicTacToe {
         System.out.println("Player " + game.currentPlayer + " wins!"); // Announce the winner
         scanner.close(); // Close the scanner
     }
-}
+} 
+
+
+<img width="507" alt="Screenshot 2024-10-11 at 10 10 45 AM" src="https://github.com/user-attachments/assets/046ed7c9-777b-408e-8754-513ffb227270">
 
